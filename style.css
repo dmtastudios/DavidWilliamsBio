@@ -1,6 +1,7 @@
 body {
     background-color: #093131;
-    height: 500%;
+    height: 1000%;
+    background-image:none
 
 }
 
@@ -14,6 +15,8 @@ body {
 #davePic {
     border-bottom-left-radius: 128px; 
     margin-left: auto;
+    width: 80%;
+    height: 80%;
 
 
 
@@ -63,14 +66,17 @@ body {
   
   .parallax-one::after {
     background-image: url(1.jpg);
+    opacity: 80%;
   }
   
   .parallax-two::after {
     background-image: url(2.jpg);
+    opacity: 80%;
   }
   
   .parallax-two::after {
     background-image: url(3.jpg);
+    opacity: 80%;
   }
   
   .parallax-two::after {
@@ -190,5 +196,11 @@ body.intro::first-letter {
     border-radius: 25px;
     border-style: groove;
     border-color: rgb(218, 218, 128);
+
+}
+
+#fieldStyle {
+    width: 25%;
+
 
 }
