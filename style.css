@@ -1,11 +1,12 @@
 body {
     background-color: rgb(37, 37, 185);
+
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    border: 5px white;
+    border: 20px gold;
     border-radius: 5px;
     border-bottom-left-radius: 18px;
     border-style: groove;
@@ -28,7 +29,7 @@ h1 {
     border-radius: 5px;
     border-bottom-left-radius: 18px;
     color: white;
-    initial-letter: 18px;
+    initial-letter: 48px;
     border-style: groove;
 
 }
@@ -44,11 +45,21 @@ h1 {
     border-spacing: 5px;
     border-style: groove;
     border-bottom-left-radius: 18px;
+    font-size: 1rem;
+    width: 50%;
+    margin:left;
 }
 
+p.intro::first-letter {
+    font-size: 100px;
+    display: block;
+    float: left;
+    line-height: .5;
+    margin: 15px 15px 10px 0;
+}
 
 #eduID {
-    text-align: center;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
     color: rgb(250, 250, 248);
@@ -57,19 +68,23 @@ h1 {
     border-spacing: 5px;
     border-style: groove;
     border-bottom-left-radius: 18px;
+    overflow-wrap: break-word;
+    line-height: 25px;
 
 }
 
 #xpID {
-    text-align: center;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(250, 250, 248);
     background-color: rgb(3, 18, 31);   
     border-radius: 5px;
-    border-spacing: 5px;
     border-style: groove;
-    scroll-snap-align: left;
+    line-height: 25px;
+    font-size: 1rem;
+    width: 50%;
+    margin:left;
     }
 
 
@@ -88,11 +103,12 @@ p {
     font-size: 14px;
     color: rgb(253, 250, 250);
     background-color: rgb(3, 18, 31);   
-    border-radius: 5px;
-    border-spacing: 5px;
+    border-radius: 10px;
     border-style: groove;
     border-color: grey;  
     border-bottom-left-radius: 18px;
+    overflow-wrap: break-word;
+
 }
 
 #buttonPlay {
